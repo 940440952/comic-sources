@@ -1,0 +1,31 @@
+{
+  "info": {
+    "id": "zh.baozimh",
+    "name": "包子漫画",
+    "version": 1,
+    "url": "https://www.twmanga.com",
+    "urls": [
+      "https://www.twmanga.com", "https://cn.twmanga.com", "https://tw.twmanga.com",
+      "https://www.baozimh.com", "https://cn.baozimh.com", "https://tw.baozimh.com",
+      "https://www.webmota.com", "https://cn.webmota.com", "https://tw.webmota.com",
+      "https://www.dinnerku.com", "https://cn.dinnerku.com", "https://tw.dinnerku.com",
+      "https://www.kukuc.co", "https://cn.kukuc.co", "https://tw.kukuc.co"
+    ],
+    "languages": ["zh"],
+    "contentRating": 1,
+    "minAppVersion": "0.7.1"
+  },
+  "listings": [
+    {"id": "home", "name": "首页"},
+    {"id": "all", "name": "全部"},
+    {"id": "cn", "name": "国产漫画"},
+    {"id": "jp", "name": "日本漫画"},
+    {"id": "kr", "name": "韩国漫画"},
+    {"id": "en", "name": "欧美漫画"}
+  ],
+  "config": {
+    "allowsBaseUrlSelect": true,
+    "hidesFiltersWhileSearching": true,
+    "maximumParallelRequests": 2
+  }
+}

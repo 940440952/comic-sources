@@ -3,6 +3,18 @@
   "feedbackURL": "https://github.com/940440952/comic-sources/issues",
   "sources": [
     {
+      "id": "zh.baozimh",
+      "name": "包子漫画",
+      "version": 1,
+      "languages": [
+        "zh"
+      ],
+      "contentRating": 1,
+      "baseURL": "https://www.twmanga.com",
+      "minAppVersion": "0.7.1",
+      "downloadURL": "https://github.com/940440952/comic-sources/releases/download/aidoku-zh.baozimh-v1/zh.baozimh-v1.aix"
+    },
+    {
       "id": "zh.hipmh",
       "name": "嗨皮漫画",
       "version": 1,
