@@ -13,7 +13,7 @@ test('catalogs refer to the implemented source with synchronized independent ver
     assert.equal(venera.length, 1);
     assert.equal(venera[0].version, code.match(/\bversion\s*=\s*"([^"]+)"/)[1]);
     assert.equal(venera[0].url, code.match(/\burl\s*=\s*"([^"]+)"/)[1]);
-    assert.deepEqual(aidoku.sources.map(source => source.id).sort(), ['zh.hipmh', 'zh.manhuazhan']);
+    assert.deepEqual(aidoku.sources.map(source => source.id).sort(), ['zh.baozimh', 'zh.hipmh', 'zh.manhuazhan']);
     for (const entry of aidoku.sources) {
         const sourceName = entry.id.split('.')[1];
         const info = JSON.parse(fs.readFileSync(path.join(root, `sources/${sourceName}/aidoku/res/source.json`), 'utf8')).info;

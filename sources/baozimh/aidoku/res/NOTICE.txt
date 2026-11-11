@@ -1,0 +1,11 @@
+Baozimh Aidoku source
+
+Adapted from the Baozimanhua source in Aidoku-Community/sources:
+https://github.com/Aidoku-Community/sources/tree/4ac84147993976d822f62632740d8870903279b9/sources/zh.baozimanhua
+Copyright 2025 Aidoku community source contributors.
+Used under the MIT license; see LICENSE.txt.
+
+Modified for comic-sources: pinned Aidoku API, independently versioned zh.baozimh
+ID, tested twmanga default, listing support, validated URLs, both chapter slots,
+complete hidden directory, stable DOM order and deduplication, explicit HTTP and
+verification errors, host-only image CDN rewriting, native regression tests.
